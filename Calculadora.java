@@ -13,11 +13,8 @@ public class Calculadora {
         int x = sc.nextInt();
         System.out.println("operand2 2: ");
         int y = sc.nextInt();
-
     }
-
     public int suma(int x, int y) {
         return x + y;
     }
-
 }
