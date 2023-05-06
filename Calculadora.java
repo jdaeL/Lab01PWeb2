@@ -25,15 +25,15 @@ public class Calculadora {
                 System.out.println("El resultado de la resta es: " + resultadoResta);
                 break;
             case "*":
-                int resultadoMultiplicacion = multiplicacion(x, y);
+                int resultadoMultiplicacion = mult(x, y);
                 System.out.println("El resultado de la multiplicación es: " + resultadoMultiplicacion);
                 break;
             case "/":
-                int resultadoDivision = division(x, y);
+                int resultadoDivision = div(x, y);
                 System.out.println("El resultado de la división es: " + resultadoDivision);
                 break;
             case "%":
-                int resultadoResto = resto(x, y);
+                int resultadoResto = mod(x, y);
                 System.out.println("El resultado del resto es: " + resultadoResto);
                 break;
             default:
@@ -48,14 +48,14 @@ public class Calculadora {
         return x + y;
     }
 
-    public int resta(int x, int y) {
+    public static int resta(int x, int y) {
         return x - y;
     }
 
-    public int mod(int x, int y) {
+    public static int mod(int x, int y) {
         return x % y;
     }
-    public int mult(int x, int y) {
+    public static int mult(int x, int y) {
         return x * y;
     }
 }
