@@ -55,7 +55,13 @@ public class Calculadora {
     public static int mod(int x, int y) {
         return x % y;
     }
+
     public static int mult(int x, int y) {
         return x * y;
     }
+
+    public static int div(int x, int y) {
+        return x / y;
+    }
+    
 }
